@@ -1,12 +1,9 @@
 # tpIntegrador-landingpage
 Trabajo practico integrador - Desarrollo de una Landing Page - Temática : Plataforma de cursos gratis online.
 Argentina Programa 4.0 - Desarrollador Web - UTN - Comision 175.
+
 Integrantes del equipo de desarrollo :
-Diana 
-Damian Fernandez
-Nilso
-Gabriel Denita
-Juan Lavayen
+Diana - Damian Fernandez - Nilso - Gabriel Denita - Juan Lavayen
 
 Desarrollo del proyecto : 
 
