@@ -1,0 +1,161 @@
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2em;
+}
+
+h2{
+    text-align: center;
+    color: rgb(87, 89, 253);
+    text-shadow: 10em;
+
+}
+
+h3 {
+    text-shadow: 2px 3px 5px blue;
+    font-size: medium;
+}
+
+h5,h6{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    
+}
+
+.imgLogo{
+    width: 60px;
+    height: 60px;
+    padding-left: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imagenHome{
+    padding: 40px 40px 40px 40px;
+}
+
+.textLogo{
+    color: rgb(255, 74, 3);
+}
+
+.textMenu{
+    color: rgb(209, 125, 0);
+}
+
+.resaltado:hover {filter: saturate(180%);}
+
+.resaltadotexto:hover {background-color: rgb(19, 130, 204);}
+
+.pfooter{
+    font-size: small;
+}
+
+.divcontainer{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+}
+
+.divcontainer2{
+    width: 48%;
+    height: 400px;
+}
+
+.imgCursos{
+    width: 100px;
+    height: 120px;
+}
+
+.imgEquipo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/* Testimonials Section
+--------------------------------*/
+
+
+.imgTestimonios{
+
+    width: 120px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin: 10px auto;
+}
+  
+
+/*DIANA*/
+
+
+
+/*diana contacto*/
+
+.container-fluid h2 {
+    text-align: center;
+    margin: 0;
+    font-weight: 800;
+    text-decoration: underline;
+    color:rgb(104, 48, 236);
+}
+
+.container-fluid form {
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+   
+
+}
+
+form .grupo{
+    position: relative;
+    margin: 25px;
+    margin-top: 30px;
+}
+
+input, textarea {
+    background: none;
+    color:#fff;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid var(--colorTextos);
+    resize: none;
+
+}
+
+.grupo label {
+    color:rgb(13, 14, 90);
+}
+
+.button {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* equipo*/
+
+main h2 {
+    font-family: 'Lobster', cursive;
+    color:#91baf0
+
+}
+
+main h6{
+    font-family: 'Lobster', cursive;
+    color:#2182f1
+}
+
+#carouselId{
+    background : linear-gradient(to right, #6A82FB, #FC5C7D);;
+    /* background-color: rgba(1, 3, 44, 0.653);  */
+    border-radius: 20px;
+}
+
