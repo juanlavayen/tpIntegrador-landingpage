@@ -12,9 +12,10 @@ Desarrollo del proyecto :
 3) Maquetado del sitio web ( Html )
 4) Estilos del sitio web ( Boostrap - Css )
 5) Funcionalidad del sitio : Javascript
+6) Consumo de librerias externas : jsPDF
 
 Pendiente
-6) Consumo de librerias externas :
+
 7) Consumo de api externa :
 
 
