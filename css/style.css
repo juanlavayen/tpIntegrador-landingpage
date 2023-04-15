@@ -16,7 +16,7 @@ h3 {
     font-size: medium;
 }
 
-h5,h6{
+h5, h6 {
     text-align: center;
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -159,3 +159,35 @@ main h6{
     border-radius: 20px;
 }
 
+.revision{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color:#91baf0
+    
+}
+ul{
+    list-style: none;
+}
+
+/* cursos  diana */
+.containerpy-3,h3,p{
+    text-align: justify;
+    color: #680eb3;
+}
+
+/* nosotros diana*/
+
+
+.col-md-6align-content-centerpy-5, h6 {
+    text-align: justify;
+}
+
+/* equipo cursos alineacion h4*/
+
+.py-4m-4container-fluid, h4{
+    text-align: center;
+    color: #91baf0;
+}
