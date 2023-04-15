@@ -160,10 +160,14 @@ main h6{
 }
 
 .revision{
+    background-color: #680eb3;
+    border-radius: 10px;
+    padding: 10px;
     margin-top: 50px;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     font-family: 'Lobster', cursive;
     color:#91baf0
     

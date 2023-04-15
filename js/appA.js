@@ -1,31 +1,45 @@
 // Vamos a tomar los datos cargados por el usuario en el formulario y lo mostraremos por pantalla
 
-const $form = document.querySelector('#form');
-const $form2 = document.querySelector('#form2');
-$form.addEventListener('submit', handleSubmit);
+const $paso1 = document.querySelector('#paso1');
+const $paso2 = document.querySelector('#paso2');
+const $paso3 = document.querySelector("#paso3");
+const $paso4 = document.querySelector("#paso4");
 
-$form2.style.display="none";
 
-function handleSubmit(e) {
-    e.preventDefault();
-    const form= new FormData(this)
-    console.log(form.get('name'))
-    console.log(form.get('email'))
-    console.log(form.get('edad'))
-    console.log(form.get('localidad'))   
-    console.log(form.get('mensaje'))
+$paso1.style.display="block";
+$paso2.style.display="none";
+$paso3.style.display="none";
+$paso4.style.display="none";
 
-    $form.style.display="none";
+function next1(){
+    $paso1.style.display="none";
+    $paso2.style.display="block";
+}
 
-    $form2.style.display="block";
+function next2(){
+    $paso2.style.display="none";
+    $paso3.style.display="block";
+}
 
+function next3(){
+    $paso3.style.display="none";
+    $paso4.style.display="block";
+
+    let ne=document.getElementById("nombre").value;
+    let el=document.getElementById("email").value;
+    let ed=document.getElementById("edad").value;
+    let le=document.getElementById("lenguaje").value;
+    let ca=document.getElementById("carrera").value;
+    let to=document.getElementById("tiempo").value;
     
-    document.getElementById('revisionDeDatos').innerHTML= `<li>Nombre Completo : ${form.get('name').toUpperCase()}</li>
-                                                           <li>Email: ${form.get('email')}</li>
-                                                           <li>Edad: ${form.get('edad')}</li>
-                                                           <li>Localidad : ${form.get('localidad').toUpperCase()}</li>
-                                                           <li>Mensaje enviado : ${form.get('mensaje')}</li>`
-}   
+    document.getElementById('revisionDeDatos').innerHTML=
+    `<li>Nombre completo :${ne}</li>
+     <li>email :${el}</li>
+     <li>Edad :${ed}</li>
+     <li>Lenguaje :${le}</li>
+     <li>Carrera :${ca}</li>
+     <li>Tiempo a destinar :${to}`;
+}
 
 function enviado(){
     alert("Mensaje enviado correctamente");
