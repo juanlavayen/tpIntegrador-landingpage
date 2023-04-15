@@ -41,6 +41,12 @@ function next3(){
      <li>Tiempo a destinar :${to}`;
 }
 
+function exportar(){
+    var doc = new jsPDF()
+        doc.text(document.getElementById('revisionDeDatos').innerText, 10, 10);
+        doc.save('Dev5-CurvaAprendizaje.pdf');
+}
+
 function enviado(){
     alert("Mensaje enviado correctamente");
     window.location.href = "index.html";
