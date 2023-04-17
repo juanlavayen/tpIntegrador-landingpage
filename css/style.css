@@ -154,7 +154,7 @@ main h6{
 }
 
 #carouselId{
-    background : linear-gradient(to right, #6A82FB, #FC5C7D);;
+    background : linear-gradient(to right, #6A82FB, #FC5C7D);
     /* background-color: rgba(1, 3, 44, 0.653);  */
     border-radius: 20px;
 }
@@ -194,4 +194,31 @@ ul{
 .py-4m-4container-fluid, h4{
     text-align: center;
     color: #91baf0;
+}
+.cardcolor{
+    background: linear-gradient(to left,#6A82FB,#680eb3);
+    /* background : linear-gradient(to right, #6A82FB, #FC5C7D); */
+    color: beige;
+    font-style: italic;
+    border-radius: 40px;
+}
+.cardcolor p{
+    color:rgb(235, 228, 228);
+}
+.JAVASCRIPT, .CSS3, .PHP, .PHYTON, .HTML5, .BOOTSTRAP5{
+    background-color: #922bce;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.containercursos{
+    color: beige;
+}
+
+.containercursos h3{
+    color: beige;
+}
+.containercursos p{
+    color: darkgrey;
 }
