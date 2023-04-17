@@ -13,15 +13,15 @@ Desarrollo del proyecto :
 4) Estilos del sitio web ( Boostrap - Css )
 5) Funcionalidad del sitio : Javascript
 6) Consumo de librerias externas : jsPDF
-7) Creacion del sitio web en un servidor. No-ip.com
+7) Creacion del sitio web en un servidor. No-ip.com 
+8) Mejorar responsividad
+9) Asistente de proceso en pasos y exportacion a PDF.
 
 URL sitio : http://devfree.ddns.net/dev
 
-
-
 Pendiente
 
-7) Consumo de api externa :
+9) Consumo de api externa :
 
 
 
