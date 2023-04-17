@@ -72,6 +72,7 @@ h5, h6 {
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    box-shadow: 6px 6px 6px 6px rgba(32,32,32,0.3);
 }
 
 /* Testimonials Section
@@ -211,6 +212,14 @@ ul{
     padding: 30px;
     margin: 30px;
 }
+
+.df, .dv, .jl, .nm, .gd, .gs{
+    background-color: #2b103b;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+}
+
 
 .containercursos{
     color: beige;
