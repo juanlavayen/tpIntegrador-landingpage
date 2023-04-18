@@ -3,14 +3,13 @@
 .homeH1{
     text-align: center;
     color: rgb(255, 255, 255);
-    text-shadow: 2em;
+    text-shadow: /* 2em; */2px 3px 5px rgb(108, 108, 241);
 }
 
 .homeH2{
     text-align: center;
     color: rgb(200, 235, 22);
-    text-shadow: 10em;
-
+    text-shadow: /* 2em; */2px 3px 5px rgb(108, 108, 241);
 }
 
 .homeH6{
@@ -19,6 +18,16 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
 }
+
+.homeP{
+    text-align: center;
+    color: rgb(101, 154, 214);
+    text-transform :uppercase;
+    text-shadow: /* 2em; */1px 2px 2px rgb(108, 108, 241);
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;     
+}
+
 .btncentrar{
     text-align: center;
 }
@@ -31,12 +40,14 @@
 .nosotrosH1{
     text-align: center;
     color: rgb(255, 255, 255);
+    text-shadow: /* 2em; */2px 3px 5px rgb(108, 108, 241);
     text-shadow: 2em;
 }
 
 .nosotrosH2{
     text-align: center;
     color: rgb(200, 235, 22);
+    text-shadow: /* 2em; */2px 3px 5px rgb(108, 108, 241);
     text-shadow: 10em;
 }
 
@@ -46,6 +57,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
 }
+
 
 /* ------------------ FIN ESTILOS NOSOTROS ---------------*/
 
