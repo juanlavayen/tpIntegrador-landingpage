@@ -367,3 +367,57 @@ ul{
     text-align: center;
     color: #91baf0;
 }
+
+/* HOME modif 18042023 x diana*/
+
+.homeH2 {
+    text-align:center;
+    margin: auto;
+    padding-left: 15px;
+    padding-right:85px;
+    padding-top: 15px;
+
+}
+
+.homeH6{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.homeH1{
+    text-align: center;
+    margin: auto;
+    padding-left: 55px;
+    padding-right: 45px;
+
+}
+
+button {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* nosotros modif x d 18042023*/
+
+.nosotrosH6{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*equipo modif x d 18042023*/
+
+.dv {
+    background-color: #7613af;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.jl {
+    background-color: #7613af;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+}
+
