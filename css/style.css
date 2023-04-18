@@ -67,6 +67,8 @@
 .equipoH1{
     text-align: center;
     color: rgb(255, 255, 255);
+    text-shadow: /* 2em; */2px 3px 5px rgb(108, 108, 241);
+    
     /* text-shadow: 2em; */
 }
 
@@ -74,7 +76,7 @@
 .equipoH2{
     font-family: 'Lobster', cursive;
     color:white;
-    text-shadow: 2px 3px 5px rgb(26, 69, 27);
+    text-shadow: /* 2em; */2px 3px 5px rgb(108, 108, 241);
     text-align: center;
 }
 
@@ -87,8 +89,8 @@
 
 .equipoH4{
     text-align: center;
-    color:rgb(200, 235, 22);
-    text-shadow: 2px 3px 5px rgb(114, 114, 121);
+    color:rgb(176, 209, 13);
+    text-shadow: 2px 2px 2px rgb(114, 114, 121);
 }
 
 main h6{
