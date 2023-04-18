@@ -19,6 +19,9 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
 }
+.btncentrar{
+    text-align: center;
+}
 
 /* ------------------ FIN ESTILOS HOME ---------------- */
 
@@ -35,7 +38,6 @@
     text-align: center;
     color: rgb(200, 235, 22);
     text-shadow: 10em;
-
 }
 
 .nosotrosH6{
@@ -44,6 +46,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
 }
+
 /* ------------------ FIN ESTILOS NOSOTROS ---------------*/
 
 
