@@ -1,15 +1,160 @@
-h1{
+/* ------------------ ESTILOS HOME ------------------- */
+
+.homeH1{
     text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: 2em;
 }
 
-h2{
+.homeH2{
     text-align: center;
-    color: rgb(87, 89, 253);
+    color: rgb(200, 235, 22);
     text-shadow: 10em;
 
 }
+
+.homeH6{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+/* ------------------ FIN ESTILOS HOME ---------------- */
+
+
+/* ------------------ ESTILOS NOSOTROS ---------------- */
+
+.nosotrosH1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2em;
+}
+
+.nosotrosH2{
+    text-align: center;
+    color: rgb(200, 235, 22);
+    text-shadow: 10em;
+
+}
+
+.nosotrosH6{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+/* ------------------ FIN ESTILOS NOSOTROS ---------------*/
+
+
+
+/* ------------------- ESTILOS EQUIPO --------------------*/
+.equipoH1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /* text-shadow: 2em; */
+}
+
+
+.equipoH2{
+    font-family: 'Lobster', cursive;
+    color:white;
+    text-shadow: 2px 3px 5px rgb(26, 69, 27);
+    text-align: center;
+}
+
+.equipoH3{
+    color: white;
+    text-shadow: 2px 3px 5px rgb(26, 69, 27);
+    font-size: medium;
+
+}
+
+.equipoH4{
+    text-align: center;
+    color:rgb(200, 235, 22);
+    text-shadow: 2px 3px 5px rgb(114, 114, 121);
+}
+
+main h6{
+    font-family: 'Lobster', cursive;
+    color:#2182f1
+}
+
+.containerequipo{
+    color: beige;
+}
+
+.containerequipo h3{
+    color: beige;
+}
+.containerequipo p{
+    color: rgb(255, 255, 255);
+}
+
+.df, .dv, .jl, .nm, .gd, .gs{
+    background-color: #7613af;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+}
+
+
+/* ----------------- FIN ESTILOS EQUIPO --------------------*/
+
+
+
+
+/* ESTILOS CURSOS */
+
+.cursosH1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /* text-shadow: 2em; */
+}
+
+.cursosH4{
+    text-align: center;
+    color:rgb(200, 235, 22);
+    text-shadow: 2px 3px 5px rgb(114, 114, 121);
+}
+
+.cardcolor{
+    background: linear-gradient(to left,#6A82FB,#680eb3);
+    /* background : linear-gradient(to right, #6A82FB, #FC5C7D); */
+    color: beige;
+    font-style: italic;
+    border-radius: 40px;
+}
+.cardcolor p{
+    color:rgb(235, 228, 228);
+}
+
+ /* COLOR DIV DETALLES DE CADA CURSO*/   
+.JAVASCRIPT, .CSS3, .PHP, .PHYTON, .HTML5, .BOOTSTRAP5{
+    background-color: #7613af;  /* #7613af */
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.containercursos{
+    color: beige;
+}
+
+.containercursos h3{
+    color: beige;
+}
+.containercursos p{
+    color: rgb(255, 255, 255);
+}
+
+
+/* FIN ESTILOS CURSOS */
+
+
+
+
 
 h3 {
     text-shadow: 2px 3px 5px blue;
@@ -94,7 +239,7 @@ h5, h6 {
 
 /*diana contacto*/
 
-.container-fluid h2 {
+.contactoh2 {
     text-align: center;
     margin: 0;
     font-weight: 800;
@@ -140,20 +285,6 @@ input, textarea {
     align-items: center;
 }
 
-
-/* equipo*/
-
-main h2 {
-    font-family: 'Lobster', cursive;
-    color:#91baf0
-
-}
-
-main h6{
-    font-family: 'Lobster', cursive;
-    color:#2182f1
-}
-
 #carouselId{
     background : linear-gradient(to right, #6A82FB, #FC5C7D);
     /* background-color: rgba(1, 3, 44, 0.653);  */
@@ -178,11 +309,12 @@ ul{
 }
 
 /* cursos  diana */
+/* 
 .containerpy-3,h3,p{
     text-align: justify;
     color: #680eb3;
 }
-
+ */
 /* nosotros diana*/
 
 
@@ -195,39 +327,4 @@ ul{
 .py-4m-4container-fluid, h4{
     text-align: center;
     color: #91baf0;
-}
-.cardcolor{
-    background: linear-gradient(to left,#6A82FB,#680eb3);
-    /* background : linear-gradient(to right, #6A82FB, #FC5C7D); */
-    color: beige;
-    font-style: italic;
-    border-radius: 40px;
-}
-.cardcolor p{
-    color:rgb(235, 228, 228);
-}
-.JAVASCRIPT, .CSS3, .PHP, .PHYTON, .HTML5, .BOOTSTRAP5{
-    background-color: #922bce;
-    border-radius: 20px;
-    padding: 30px;
-    margin: 30px;
-}
-
-.df, .dv, .jl, .nm, .gd, .gs{
-    background-color: #2b103b;
-    border-radius: 20px;
-    padding: 30px;
-    margin: 30px;
-}
-
-
-.containercursos{
-    color: beige;
-}
-
-.containercursos h3{
-    color: beige;
-}
-.containercursos p{
-    color: darkgrey;
 }
