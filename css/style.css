@@ -283,6 +283,21 @@ main h6{
     color:rgb(10, 110, 168);
 }
 
+.btnInscribite{
+    
+    color: rgb(240, 240, 255);
+    background: linear-gradient(to left,#6A82FB,#680eb3);
+    /* background-color :#6A82FB; */
+    border-radius: 20px;
+    /* box-shadow: 2px 2px 2px #d1d2d4; */
+}
+.btnInscribite:hover{
+    font-size: 20px;
+    color:black;
+}
+
+
+
 /* ------------------------- FIN ESTILOS CURSOS -----------------------*/
 
 
@@ -337,7 +352,8 @@ main h6{
 
 .footerUl{
     font-size: 12px;
-    text-align: left;
+    text-align: right;
+
 }
 
 
@@ -414,7 +430,8 @@ input, textarea {
 }
 
 .grupo label {
-    color:rgb(221, 224, 240);
+    color:rgb(255, 255, 255);
+    margin-bottom: 10px;
 }
 
 .button {
@@ -555,5 +572,7 @@ button {
     border-radius: 20px;
     padding: 30px;
     margin: 30px;
+
 }
+
 
