@@ -15,8 +15,9 @@
 } */
 
 *::placeholder {
-  color:rgb(211, 198, 198);
-  font-size: 12px;
+  color:rgb(0, 0, 0);
+  
+  font-size: 14px;
 }
 
 /* ------------------ ESTILOS HOME ------------------- */
@@ -430,12 +431,12 @@ input, textarea {
     width: 100%;
     border-bottom: 1px solid var(--colorTextos);
     resize: none;
-
 }
 
 .grupo label {
     color:rgb(255, 255, 255);
     margin-bottom: 10px;
+    text-shadow: 2px 2px 2px black;
 }
 
 .button {
@@ -490,6 +491,26 @@ input, textarea {
     color:#d3e1f4
     
 }
+
+#paso1 label{
+    color: white;
+    font-family: fantasy;
+    font-size: 14px;
+    text-shadow: /* 2em; */2px 3px 5px rgb(30, 30, 33);
+}
+#paso2 label{
+    color: white;
+    font-family: fantasy;
+    font-size: 14px;
+    text-shadow: /* 2em; */2px 3px 5px rgb(30, 30, 33);
+}
+#paso3 label{
+    color: white;
+    font-family: fantasy;
+    font-size: 14px;
+    text-shadow: /* 2em; */2px 3px 5px rgb(30, 30, 33);
+}
+
 
 
 /* ----- FIN ESTILOS DE FORMULARIO DE PROCESO ------ */
