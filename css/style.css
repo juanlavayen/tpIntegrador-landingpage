@@ -53,7 +53,34 @@
     text-align: center;
 }
 
+.imgLogo{
+    width: 60px;
+    height: 60px;
+    padding-left: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imagenHome{
+    padding: 40px 40px 40px 40px;
+}
+
+.textLogo{
+    color: rgb(255, 74, 3);
+}
+
+.textMenu{
+    color: rgb(209, 125, 0);
+}
+
+.resaltado:hover {filter: saturate(180%);}
+
+.resaltadotexto:hover {background-color: rgb(19, 130, 204);}
+
+
 /* ------------------ FIN ESTILOS HOME ---------------- */
+
+
 
 
 /* ------------------ ESTILOS NOSOTROS ---------------- */
@@ -134,8 +161,22 @@ main h6{
     padding: 30px;
     margin: 30px;
 }
+.imgEquipo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 6px 6px rgba(32,32,32,0.3);
+}
 
-
+.imgEquipo:hover{
+    display: flex;
+    align-self: center;
+    width: 265px;
+    height: 265px;
+    border-radius: 50%;
+    opacity: 90%;
+    box-shadow: 10px 10px 10px 10px rgba(241, 238, 238, 0.3);
+}
 
 /* ----------------- FIN ESTILOS EQUIPO --------------------*/
 
@@ -279,44 +320,6 @@ main h6{
 /* ----------------------- FIN ESTILOS FOOTER ------------------------ */
 
 
-/* h3 {
-    text-shadow: 2px 3px 5px blue;
-    font-size: medium;
-}
-
-h5, h6 {
-    text-align: center;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-    
-}
- */
-.imgLogo{
-    width: 60px;
-    height: 60px;
-    padding-left: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.imagenHome{
-    padding: 40px 40px 40px 40px;
-}
-
-.textLogo{
-    color: rgb(255, 74, 3);
-}
-
-.textMenu{
-    color: rgb(209, 125, 0);
-}
-
-.resaltado:hover {filter: saturate(180%);}
-
-.resaltadotexto:hover {background-color: rgb(19, 130, 204);}
-
-
 .divcontainer{
     background-color: aqua;
     height: 100%;
@@ -333,12 +336,6 @@ h5, h6 {
     height: 120px;
 }
 
-.imgEquipo{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    box-shadow: 6px 6px 6px 6px rgba(32,32,32,0.3);
-}
 
 /* Testimonials Section
 --------------------------------*/
