@@ -3,7 +3,7 @@ Trabajo practico integrador - Desarrollo de una Landing Page - Temática : Plata
 Argentina Programa 4.0 - Desarrollador Web - UTN - Comision 175.
 
 Integrantes del equipo de desarrollo :
-Diana - Damian Fernandez - Nilso - Gabriel Denita - Juan Lavayen
+Diana Vazquez - Damian Fernandez - Nilso Mendes - Gabriel Denita - Juan Lavayen
 
 Desarrollo del proyecto : 
 
@@ -20,8 +20,8 @@ Desarrollo del proyecto :
 URL sitio : http://devfree.ddns.net/dev
 
 Pendiente
-
-9) Consumo de api externa :
+9) Validaciones
+10) Consumo de api externa 
 
 
 
