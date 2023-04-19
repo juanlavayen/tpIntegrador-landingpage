@@ -327,6 +327,10 @@ main h6{
     box-decoration-break: slice;
 }
 
+.carousel-item h5,p{
+    text-shadow: /* 2em; */2px 3px 5px rgb(0, 0, 0);
+}
+
 /* ----------------------- FIN ESTILOS TESTIMONIOS ------------------- */
 
 
