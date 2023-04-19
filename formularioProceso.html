@@ -51,24 +51,24 @@
     <main class="container-fluid mx-1 mainEstilos rounded-5 ">
       <div class="container-fluid m-2">
         
-        <h1>Asistente para la seleccion de cursos</h1>
+        <h1 class="formProcesoH1">Asistente para la seleccion de cursos</h1>
           
         <div class="row">
           <div class="col-3"></div>
           
           <!-- Paso 1 -->    
-          <div class="col-6" id="paso1">
+          <div class="col-6 border rounded-5 py-3 px-3" id="paso1">
 
-            <h3>Asistente 1 / 3</h3>
+            <h3 class="formProcesoH3">Asistente 1 / 3</h3>
           
-            <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control m-2" name="nombre" id="nombre" aria-describedby="nombreHelpId" placeholder="Ingrese su nombre completo">
+            <label for="nombre" class="form-label m-3">Nombre</label>
+            <input type="text" class="form-control mx-1 py-2" name="nombre" id="nombre" aria-describedby="nombreHelpId" placeholder="Ingrese su nombre completo">
 
-            <label for="" class="form-label">Email</label>
-            <input type="email" class="form-control m-2" name="email" id="email" aria-describedby="emailHelpId" placeholder="Ingrese su correo electronico">
+            <label for="" class="form-label m-3">Email</label>
+            <input type="email" class="form-control mx-1 py-2" name="email" id="email" aria-describedby="emailHelpId" placeholder="Ingrese su correo electronico">
 
-            <div class="container-fluid text-center">
-              <a name="" id="" class="btn btn-primary m-2" href="#" role="button" onclick="next1()">Siguiente</a>
+            <div class="container-fluid m-2 text-center">
+              <a name="" id="" class="btn btn-primary mx-1 py-2" href="#" role="button" onclick="next1()">Siguiente</a>
             </div>
           </div>
           <!-- Fin Paso 1 -->
@@ -76,18 +76,18 @@
 
           <!-- Paso 2 -->
           
-          <div class="col-6" id="paso2">
+          <div class="col-6 border rounded-5 py-3 px-3" id="paso2">
 
-            <h3>Asistente 2 / 3</h3>
+            <h3 class="formProcesoH3">Asistente 2 / 3</h3>
           
-            <label for="edad" class="form-label">Edad</label>
-            <input type="text" class="form-control m-2" name="edad" id="edad" aria-describedby="nombreHelpId" placeholder="Ingrese su edad">
+            <label for="edad" class="form-label m-3">Edad</label>
+            <input type="text" class="form-control mx-1 py-2" name="edad" id="edad" aria-describedby="nombreHelpId" placeholder="Ingrese su edad">
 
-            <label for="lenguaje" class="form-label">Lenguaje</label>
-            <input type="text" class="form-control m-2" name="lenguaje" id="lenguaje" aria-describedby="emailHelpId" placeholder="Seleccion de lenguaje">
+            <label for="lenguaje" class="form-label m-3">Lenguaje</label>
+            <input type="text" class="form-control mx-1 py-2" name="lenguaje" id="lenguaje" aria-describedby="emailHelpId" placeholder="Seleccion de lenguaje">
 
-            <div class="container-fluid text-center">
-              <a name="" id="" class="btn btn-primary m-2" href="#" role="button" onclick="next2()">Siguiente</a>
+            <div class="container-fluid m-2 text-center">
+              <a name="" id="" class="btn btn-primary mx-1 py-2" href="#" role="button" onclick="next2()">Siguiente</a>
             </div>
           
           </div>
@@ -95,18 +95,18 @@
 
           <!-- Paso 3 -->
           
-          <div class="col-6" id="paso3">
+          <div class="col-6 border rounded-5 py-3 px-3" id="paso3">
 
-            <h3>Asistente 3 / 3</h3>
+            <h3 class="formProcesoH3">Asistente 3 / 3</h3>
           
-            <label for="carrera" class="form-label">Carrera</label>
-            <input type="text" class="form-control m-2" name="carrera" id="carrera" aria-describedby="carreraHelpId" placeholder="Ingrese la carrera a seguir">
+            <label for="carrera" class="form-label m-3">Carrera</label>
+            <input type="text" class="form-control mx-1 py-2" name="carrera" id="carrera" aria-describedby="carreraHelpId" placeholder="Ingrese la carrera a seguir">
 
-            <label for="tiempo" class="form-label">Tiempo</label>
-            <input type="text" class="form-control m-2" name="tiempo" id="tiempo" aria-describedby="tiempoHelpId" placeholder="Tiempo en hs x semana">
+            <label for="tiempo" class="form-label m-3">Tiempo</label>
+            <input type="text" class="form-control mx-1 py-2" name="tiempo" id="tiempo" aria-describedby="tiempoHelpId" placeholder="Tiempo en hs x semana">
 
-            <div class="container-fluid text-center">
-              <a name="" id="" class="btn btn-primary m-2" href="#" role="button" onclick="next3()">Siguiente</a>
+            <div class="container-fluid m-2 text-center">
+              <a name="" id="" class="btn btn-primary mx-1 py-2" href="#" role="button" onclick="next3()">Siguiente</a>
             </div>
           
           </div>
@@ -114,8 +114,8 @@
 
           <!-- Paso 4 - FIN  -->
           
-          <div class="col-6" id="paso4">
-            <h4>Curva de aprendizaje para el alumno</h4>
+          <div class="col-6 border rounded-5 py-3 px-3" id="paso4">
+            <h4 class="formProcesoH4">Curva de aprendizaje para el alumno</h4>
             <ul id="revisionDeDatos" class="revision"></ul>
             <div class="container-fluid text-center">
               <a name="" id="" class="btn btn-primary m-2" href="#" role="button" onclick="exportar()">Exportar PDF</a>
