@@ -1,3 +1,18 @@
+/* html,body{
+    overflow-x: hidden;
+    color:black;
+    font-family:'Opens Sans',helvetica;  
+    height:100%;
+    width:101%;
+    margin: 0px;
+    padding: 0px;
+  } */
+/* 
+
+
+::-webkit-scrollbar {
+    display: none;
+} */
 /* ------------------ ESTILOS HOME ------------------- */
 
 .homeH1{
@@ -48,7 +63,7 @@
     text-align: center;
     color:rgb(245, 237, 121);
     text-shadow: /* 2em; */2px 3px 5px rgb(108, 108, 241);
-    text-shadow: 10em;
+    /* text-shadow: 10em; */
 }
 
 .nosotrosH6{
@@ -68,10 +83,8 @@
     text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: /* 2em; */2px 3px 5px rgb(108, 108, 241);
-    
     /* text-shadow: 2em; */
 }
-
 
 .equipoH2{
     font-family: 'Lobster', cursive;
@@ -115,6 +128,7 @@ main h6{
     padding: 30px;
     margin: 30px;
 }
+
 
 
 /* ----------------- FIN ESTILOS EQUIPO --------------------*/
@@ -177,20 +191,23 @@ main h6{
 .testimoniosH1{
     text-align: center;
     color: rgb(255, 255, 255);
+    text-shadow: /* 2em; */2px 3px 5px rgb(108, 108, 241);
     /* text-shadow: 2em; */
 }
 
 .testimoniosH2{
         text-align: center;
-        color: rgb(200, 235, 22);
-        text-shadow: 10em;
+        color:rgb(245, 237, 121);
+        text-shadow: /* 2em; */2px 3px 5px rgb(108, 108, 241);
+        /* text-shadow: 10em; */
 }
 
 .imgTestimonios{
-    width: 120px;
+    width: 150px;
     border-radius: 50%;
-    border: 4px solid #fff;
-    margin: 10px auto;
+    border: 2px solid #fff;
+    margin: 15px auto 15px auto;
+    box-decoration-break: slice;
 }
 
 /* ----------------------- FIN ESTILOS TESTIMONIOS ------------------- */
@@ -298,10 +315,10 @@ h5, h6 {
 
 .contactoh2 {
     text-align: center;
-    margin: 0;
+    margin: 25px 5px 25px 5px;
     font-weight: 800;
     text-decoration: underline;
-    color:rgb(104, 48, 236);
+    color:rgb(231, 227, 174);
 }
 
 .container-fluid form {
