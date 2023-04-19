@@ -181,6 +181,37 @@ main h6{
     color: rgb(255, 255, 255);
 }
 
+#HTML5:hover{
+    text-shadow: /* 2em; */2px 2px 2px rgb(221, 221, 230);
+    font-size: 35px;
+    color:rgb(10, 110, 168);
+}
+#CSS3:hover{
+    text-shadow: /* 2em; */2px 2px 2px rgb(221, 221, 230);
+    font-size: 35px;
+    color:rgb(10, 110, 168);
+}
+#JAVASCRIPT:hover{
+    text-shadow: /* 2em; */2px 2px 2px rgb(221, 221, 230);
+    font-size: 35px;
+    color:rgb(10, 110, 168);
+}
+#PHP:hover{
+    text-shadow: /* 2em; */2px 2px 2px rgb(221, 221, 230);
+    font-size: 35px;
+    color:rgb(10, 110, 168);
+}
+#BOOTSTRAP5:hover{
+    text-shadow: /* 2em; */2px 2px 2px rgb(221, 221, 230);
+    font-size: 35px;
+    color:rgb(10, 110, 168);
+}
+#PHYTON:hover{
+    text-shadow: /* 2em; */2px 2px 2px rgb(221, 221, 230);
+    font-size: 35px;
+    color:rgb(10, 110, 168);
+}
+
 /* ------------------------- FIN ESTILOS CURSOS -----------------------*/
 
 
