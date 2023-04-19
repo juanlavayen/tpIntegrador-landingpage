@@ -8,7 +8,7 @@
 
 .homeH2{
     text-align: center;
-    color: rgb(200, 235, 22);
+    color:rgb(245, 237, 121);
     text-shadow: /* 2em; */2px 3px 5px rgb(108, 108, 241);
 }
 
@@ -46,7 +46,7 @@
 
 .nosotrosH2{
     text-align: center;
-    color: rgb(200, 235, 22);
+    color:rgb(245, 237, 121);
     text-shadow: /* 2em; */2px 3px 5px rgb(108, 108, 241);
     text-shadow: 10em;
 }
@@ -89,7 +89,7 @@
 
 .equipoH4{
     text-align: center;
-    color:rgb(176, 209, 13);
+    color:rgb(245, 237, 121);
     text-shadow: 2px 2px 2px rgb(114, 114, 121);
 }
 
@@ -127,12 +127,13 @@ main h6{
 .cursosH1{
     text-align: center;
     color: rgb(255, 255, 255);
+    text-shadow: /* 2em; */2px 3px 5px rgb(108, 108, 241);
     /* text-shadow: 2em; */
 }
 
 .cursosH4{
     text-align: center;
-    color:rgb(200, 235, 22);
+    color:rgb(245, 237, 121);
     text-shadow: 2px 3px 5px rgb(114, 114, 121);
 }
 
